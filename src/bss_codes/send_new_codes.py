@@ -18,4 +18,4 @@ async def sendNewCodeNotification(code):
         description=f"```{code}```",
         colour=discord.Colour(int("6798ed", 16)),
     )
-    await channel.send(embed=codeEmbed)
+    await channel.send(content="<@&1323389335298375690>", embed=codeEmbed)
